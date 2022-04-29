@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#news{
+
+}
+
+#news .news-item{
+    width: 320px;
+    height: 35vh;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+#news .news-item .image{
+    width: 100%;
+    height: 23vh;
+    position: relative;
+}
+
+#news .news-item img{
+    width: 100%;
+    height: 100%;
+}
+
+#news .news-item .date-time{
+    width: 42%;
+    height: 4vh;
+    background-color: rgba(21, 120, 132, .8);
+    padding: 8px;
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+}
+#news .news-item .date-time .date{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px; 
+    color: white;
+    display: inline-block;
+    margin: 2px;
+}
+#news .news-item .date-time .time{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;    
+     color: white;
+    display: inline-block;
+    margin: 2px;
+}
+#news .news-item .date-time .count{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px; 
+    color: white;
+    display: inline-block;
+    margin: 2px;
+}
+
+#news .news-item .image .symbols{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    position: absolute;
+    top: 35%;
+}
+
+#news .news-item .image .symbols a{
+    font-size: 30px;
+    color: white;
+}
+
+#news .news-item .title{
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(82, 80, 80);
+    padding: 10px;
+}
+
+#news .news-item .title p{
+    font-family: 'Roboto', sans-serif;
+    color: white;   
+}
